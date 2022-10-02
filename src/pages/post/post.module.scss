@@ -1,0 +1,45 @@
+.container{
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.content{
+  max-width: 720px;
+  margin: 80px auto;
+  header{
+    h1{
+      font-size: 3rem;
+      color: var(--heading);
+    }
+    div{
+      display: flex;
+      align-items: cente;
+      gap: 1.5rem;
+      margin-top: 1.5rem;
+      span{
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 0.875rem;
+      }
+    }
+  }
+  article{
+    margin-top: 4rem;
+    section{
+      margin: 2rem 0;
+      h2{
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}
+
+.paragraph{
+  margin-top: 5rem, 0;
+  display: block;
+  gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
